@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Feedback Form </title>
+        <link rel="stylesheet" href="reg1.css" type="text/css">
+    </head>
+    <body>
+        <div class="main">
+            <img src="logo.png" class="logo">
+            <div class="register">
+                <h2>Mess Feedback</h2>
+                <form id="register" method="POST" action="test.php" >
+                    <label>First Name : </label>
+                    <br>
+                    <input type="text" name="FirstName" id="FirstName" placeholder="Enter first Name" required >
+                    <br><br>
+                    <label>Last Name : </label>
+                    <br>
+                    <input type="text" name="LastName" id="LastName" placeholder="Enter Last Name" required >
+                    <br><br>
+                    <label>Enrollment Number : </label>
+                    <br>
+                    <input type="number" name="Enum" id="Enum" placeholder="Enter Enrollment Number" required >
+                    <br><br>
+                    <label>Email : </label>
+                    <br>
+                    <input type="email" name="email" id="email" placeholder="Enter Your Mail-id" required >
+                    <br><br>
+                    <!-- <label>Meal Time: </label>
+                    <br>
+                    &nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="meal" id="BreakFast">
+                    &nbsp;
+                    <span id="BreakFast">BreakFast</span>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="meal" id="Lunch">
+                    &nbsp;
+                    <span id="Lunch">Lunch</span> 
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="meal" id="Tea Time">
+                    &nbsp;
+                    <span id="Tea Time">Tea Time</span>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="meal" id="Dinner">
+                    &nbsp;
+                    <span id="Dinner">Dinner</span>
+                    <br><br> -->
+                    <label>Breakfast: </label>
+                    <br>
+                    &nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="BreakFast" id="Best" value="Best" required >
+                    &nbsp;
+                    <span id="Best">Best</span>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="BreakFast" id="Good" value="Good" required >
+                    &nbsp;
+                    <span id="Good">Good</span> 
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="BreakFast" id="Bad" value="Bad" required >
+                    &nbsp;
+                    <span id="Bad">Bad</span>
+                    <br><br>
+                    <label>Lunch: </label>
+                    <br>
+                    &nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="Lunch" id="Best" value="Best" required >
+                    &nbsp;
+                    <span id="Best">Best</span>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="Lunch" id="Good" value="Good" required >
+                    &nbsp;
+                    <span id="Good">Good</span> 
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="Lunch" id="Bad" value="Bad" required >
+                    &nbsp;
+                    <span id="Bad">Bad</span>
+                    <br><br>
+                    <label>Tea Time: </label>
+                    <br>
+                    &nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="TeaTime" id="Best" value="Best" required >
+                    &nbsp;
+                    <span id="Best">Best</span>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="TeaTime" id="Good" value="Good" required >
+                    &nbsp;
+                    <span id="Good">Good</span> 
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="TeaTime" id="Bad" value="Bad" required >
+                    &nbsp;
+                    <span id="Bad">Bad</span>
+                    <br><br>
+                    <label>Dinner: </label>
+                    <br>
+                    &nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="Dinner" id="Best" value="Best" required >
+                    &nbsp;
+                    <span id="Best">Best</span>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="Dinner" id="Good" value="Good" required >
+                    &nbsp;
+                    <span id="Good">Good</span> 
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="Dinner" id="Bad" value="Bad" required >
+                    &nbsp;
+                    <span id="Bad">Bad</span>
+                    <br><br>
+                    <label>Rate Utensils: </label>
+                    <br>
+                    &nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="Utensils" id="Properly Washed" value="Properly Washed" required >
+                    &nbsp;
+                    <span id="Properly Washed">Properly Washed</span>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="Utensils" id="Not Properly washed" value="Not Properly Washed" required >
+                    &nbsp;
+                    <span id="Not Properly washed">Not Properly washed</span> 
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="Utensils" id="Dirty" value="Dirty" required >
+                    &nbsp;
+                    <span id="Dirty">Dirty</span>
+                    <br><br>
+                    <label>Suggestions : </label>
+                    <br>
+                    <input type="text" name="Suggestions" id="Suggestions" placeholder="Give Some Suggestion for improvement" required >
+                    <br><br> 
+                    <input type="submit" value="Submit" name="Submit" id="Submit"> 
+                    <a href="logout.php">LOGOUT</a>   
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
